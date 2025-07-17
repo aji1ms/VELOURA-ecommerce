@@ -8,6 +8,7 @@ import Profile from './pages/Profile';
 import Collections from './pages/Collections';
 import { Toaster } from "sonner";
 import ProductDetails from './components/Products/ProductDetails';
+import Checkout from './components/Cart/Checkout';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='profile' element={<Profile />} />
           <Route path='collections/:collection' element={<Collections />} />
           <Route path='product/:id' element={<ProductDetails />} />
+          <Route path='checkout' element={<Checkout />} />
         </Route>
       </Routes>
     </BrowserRouter>
