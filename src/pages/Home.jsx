@@ -4,6 +4,7 @@ import GenderCollectionSection from "../components/Products/GenderCollectionSect
 import NewArrivals from "../components/Products/NewArrivals";
 import FeaturedCollections from "../components/Products/FeaturedCollections";
 import FeaturedSection from "../components/Products/FeaturedSection";
+import ProductDetails from "../components/Products/ProductDetails";
 
 const Home = () => {
     return (
@@ -11,8 +12,9 @@ const Home = () => {
             <Hero />
             <GenderCollectionSection />
             <NewArrivals />
-            <FeaturedCollections/>
-            <FeaturedSection/>
+            <FeaturedCollections />
+            <FeaturedSection />
+            <ProductDetails />
         </div>
     )
 }
