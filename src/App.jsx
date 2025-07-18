@@ -9,6 +9,7 @@ import Collections from './pages/Collections';
 import { Toaster } from "sonner";
 import ProductDetails from './components/Products/ProductDetails';
 import Checkout from './components/Cart/Checkout';
+import OrderConfirmationPage from './pages/OrderConfirmationPage';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='collections/:collection' element={<Collections />} />
           <Route path='product/:id' element={<ProductDetails />} />
           <Route path='checkout' element={<Checkout />} />
+          <Route path='order-confirmation' element={<OrderConfirmationPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
