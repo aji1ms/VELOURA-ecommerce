@@ -14,7 +14,6 @@ const Home = () => {
             <NewArrivals />
             <FeaturedCollections />
             <FeaturedSection />
-            <ProductDetails />
         </div>
     )
 }
